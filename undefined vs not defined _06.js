@@ -35,12 +35,13 @@
 
 //-------------------------------------------------
 
-var a = 10;
-console.log(a);
+// var a = 10;
+// console.log(a);
 
-a = undefined;
+// a = undefined;
 
-console.log(a);
+// console.log(a);
 
 
+// its a bad practice to assign undefined to any veriable
 
