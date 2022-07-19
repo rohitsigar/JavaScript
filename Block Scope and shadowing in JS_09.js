@@ -95,7 +95,7 @@
 
 //     let b =  20;
 
-//     const c = 30;
+//     const c = 30;`
 
     
 //     console.log(b);
@@ -195,21 +195,21 @@
 //-------------------------------------
 
 
-const a = 20;
+// const a = 20;
 
-{
-    const a = 30;
-    {
+// {
+//     const a = 30;
+//     {
 
-        {
+//         {
 
-            console.log(a);
-        }
-        console.log(a);
-    }
-    console.log(a);
-}
-console.log(a);
+//             console.log(a);
+//         }
+//         console.log(a);
+//     }
+//     console.log(a);
+// }
+// console.log(a);
 
 
 //output
@@ -217,3 +217,8 @@ console.log(a);
 //30
 //30
 //20
+
+//it also follows lixical environment
+//if now find in current block look in parent block and so on 
+// same in case of functions and allows functions
+
