@@ -300,23 +300,27 @@
 
 
 
-//but is modern browers like crome and V8 have smart garbage collection machanism
+//but is modern browers like crome and V8 have smartly garbage collection machanism
 //it find outs which verialbe in closure are not been used and collect them as Garbage veriable
 
 //example
 
 
-function a()
-{
-    var x = 0;
+// function a()
+// {
+//     var x = 0 ,z = 10;
 
-    return function b()
-    {
-        console.log(x);
-    }
-}
+//     return function b()
+//     {
+//         console.log(x);
+//     }
+// }
 
-var y = a();
+// var y = a();
+
+//here z is garbage collected but not x 
+//thought closure contain both x and z
+
 
 
 

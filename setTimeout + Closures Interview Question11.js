@@ -88,24 +88,24 @@
 //but what if we have to do it using var only
 
 
-function y()
-{
+// function y()
+// {
     
-    for(var i=1;i<=5;i++)
-    {
-        function x(t)
-        {
-            setTimeout(function()
-            {
-                console.log(t);
-            } , t*1000);
+//     for(var i=1;i<=5;i++)
+//     {
+//         function x(t)
+//         {
+//             setTimeout(function()
+//             {
+//                 console.log(t);
+//             } , t*1000);
 
-        }
-        x(i);  
-    }
-}
+//         }
+//         x(i);  
+//     }
+// }
 
-y();
+// y();
 
 
 // output-
